@@ -1,3 +1,7 @@
+body {
+  background-color: blue;
+}
+
 guild {
   display: block;
   min-height: 20px;
