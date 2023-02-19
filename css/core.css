@@ -1,0 +1,19 @@
+guild {
+  display: block;
+  min-height: 20px;
+  background-color: red;
+  margin: 10px;
+}
+
+guild[name="riot"] {
+  background-color: aqua;
+}
+
+kill::before {
+  content: attr(name);
+}
+
+kittens {
+  display: block;
+  background-color: red;
+}
